@@ -23,6 +23,8 @@ import rioxarray
 from dask.diagnostics import ProgressBar
 from fastai.tabular.all import load_learner
 
+## Update .pkl file as new version becomes available.
+
 DEFAULT_FASTAI_MODEL = os.path.join(
     os.path.dirname(__file__), "ICECREAMS_V1_1.pkl"
 )

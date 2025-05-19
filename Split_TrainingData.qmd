@@ -1,0 +1,26 @@
+---
+title: "SplitTraining Data"
+---
+
+```{r}
+
+library(tidyverse)
+
+TrainingData_Large<-read_csv("") # Add New Version Training Data and Make sure to change the Version Name plus create a folder with the same name
+
+Version_Name<-"" # e.g. "V1_3"
+
+rowCount <- 10000
+TrainingData_Large %>% 
+  mutate(Group = sprintf("%04s",as.numeric(ceiling((row_number()) / rowCount)))) %>% 
+  group_by(Group) %>% 
+  group_walk(
+    function(.x, .y) {
+      write_csv(.x, file = paste0("Data/Input/Training/",Version_Name,"/S2_ICE_CREAMS_",Version_Name,"_Split_", .y$Group, ".csv"))
+    }
+  )
+
+
+```
+
+
