@@ -15,11 +15,17 @@ project](https://bicome.info).
 ## General Contents
 
 This repository contains the scripts to train and apply the ICE CREAMS
-model to Sentinel-2 imagery. The training data for the model can be
-downloaded from DOI: 10.6084/m9.figshare.26069293, then Sentinel-2
-imagery should be downloaded from any source in the .SAFE format. This
-model assumes cloud free, low tide (totally emerged) intertidal areas
-(currently validated in Europe).
+model to Sentinel-2 imagery. Sentinel-2 imagery should be downloaded
+from any source in the .SAFE format. This model assumes cloud free, low
+tide (totally emerged) intertidal areas (currently validated in Europe).
+
+## Published Uses of ICE CREAMS
+
+The ICE CREAMS model has so far been published in relation to Seagrass
+Phenology assessments and Seagrass Temporal Patterns in: [Davies *et
+al.,* 2024a](https://www.nature.com/articles/s43247-024-01543-z.pdf) and
+[Davies *et al.,*
+2024b](https://www.sciencedirect.com/science/article/pii/S0034425724003584?via%3Dihub).
 
 ## Methods
 
@@ -141,8 +147,7 @@ $$ G_{a} = \frac{n_{TP}+n_{TN}}{n_{TP}+n_{TN}+n_{FP}+n_{FN}} $$
 
 where $n_{TP}$ is the number of True Positives, $n_{TN}$ the number of
 True Negatives, $n_{FP}$ the number of False Positives and $n_{FN}$ the
-number of False Negatives. The ICE CREAMS model achieved a $G_{a}$ of
-0.82. Non-Seagrass pixels contained a mixture of the non-seagrass
-classes with ~1000 green macroalgae, ~3000 bare sand and mud, ~2000
-microphytobenthos and ~1000 Mixed-Rocks with associated brown
-macroalgae.
+number of False Negatives. The previously published ICE CREAMS model
+achieved a $G_{a}$ of 0.82. The validation data has subsequently been
+increased alongside these data, with the current accuarcy score of
+0.878.
