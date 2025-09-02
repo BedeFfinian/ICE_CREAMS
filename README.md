@@ -12,14 +12,14 @@ Precursors’ with [Terrestrial
 (BIOMONDO)](https://www.biomondo.info/) and Coastal ecosystems [BiCOME
 project](https://bicome.info).
 
-## Environment Set Up (Current)
+## Environment Set Up (Current as of: 2025-09-02)
 
 create a conda environment, activate it and install jupyter lab to view
 the notebooks with the following code:
 
 - This installs all the versions of the necessary packages for all the
   notebooks in this repository into a virtual environment called
-  ‘ICE_CREAMS’. (As of: 2025-09-01)
+  ‘ICE_CREAMS’.
 
 ``` text
 conda create --name ICE_CREAMS conda-forge::fastai=2.8.4 fastcore=1.8.8 geopandas=1.1.1 rioxarray=0.18.1 dask=2025.7.0
@@ -31,6 +31,8 @@ conda create --name ICE_CREAMS conda-forge::fastai=2.8.4 fastcore=1.8.8 geopanda
 conda activate ICE_CREAMS
 ```
 
+### Added Extras
+
 - install jupyter-lab (this can be skipped if using a different
   GUI/reader)
 
@@ -38,6 +40,13 @@ conda activate ICE_CREAMS
 conda install jupyterlab
 
 jupyter-lab
+```
+
+- For Windows user you may need to install jp2 package to read and
+  therefore apply ICE CREAMS to a SAFE file from Copernicus.
+
+``` text
+conda install -c conda-forge libgdal-jp2openjpeg
 ```
 
 ## Practical Use Order
@@ -56,8 +65,10 @@ Therefore follow these steps fully:
 - Test this .pkl file against the validation data in
   ‘Apply_ICE_CREAMS_to_Labelled_Validation.ipynb’
 
-- Apply this .pkl file to a Copernicus .SAFE file (with an accompanying
-  intertidal mask file that the user must create in the same CRS as the)
+- Apply this .pkl file to a Copernicus .SAFE file with
+  ‘Apply_S2_ICECREAMS_To_SAFE_File.ipynb’ (with an accompanying
+  intertidal mask file that the user must create in the same CRS as the
+  SAFE file)
 
 ## General Contents
 
