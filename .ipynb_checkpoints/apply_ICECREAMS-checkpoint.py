@@ -7,7 +7,7 @@ Takes a trained Neural Network model (saved with pickle) and runs this over a S2
 in SAFE format using xarray.
 
 Author: Bede Ffinian Rowe Davies 
-Date: 2023-03-30 edited 2024-06-23
+Date: 2023-03-30 edited 2025-09-08
 
 """
 import argparse
@@ -213,7 +213,7 @@ def _read_s2_data_xarray(input_s2_files, mask_vector_file=None):
         }
     )
     # Set CRS
-    s2_data_raw.rio.set_crs(b02.rio.crs)
+    s2_data_raw.rio.write_crs(b02.rio.crs)
 
     # Apply SCL mask to data
     scl_mask = build_s2_mask_scl_mask(scl_10m)

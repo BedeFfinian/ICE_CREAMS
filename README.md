@@ -12,7 +12,7 @@ Precursors’ with [Terrestrial
 (BIOMONDO)](https://www.biomondo.info/) and Coastal ecosystems [BiCOME
 project](https://bicome.info).
 
-## Environment Set Up (Current as of: 2025-09-02)
+## Environment Set Up (Current as of: 2025-09-08)
 
 create a conda environment, activate it and install jupyter lab to view
 the notebooks with the following code:
@@ -22,7 +22,7 @@ the notebooks with the following code:
   ‘ICE_CREAMS’.
 
 ``` text
-conda create --name ICE_CREAMS conda-forge::fastai=2.8.4 fastcore=1.8.8 geopandas=1.1.1 rioxarray=0.18.1 dask=2025.7.0
+conda create --name ICE_CREAMS conda-forge::fastai=2.8.4 fastcore=1.8.8 geopandas=1.1.1 rioxarray=0.18.1 dask=2025.7.0 libgdal-jp2openjpeg=3.10.3
 ```
 
 - activate the environment
@@ -40,13 +40,6 @@ conda activate ICE_CREAMS
 conda install jupyterlab
 
 jupyter-lab
-```
-
-- For Windows user you may need to install jp2 package to read and
-  therefore apply ICE CREAMS to a SAFE file from Copernicus.
-
-``` text
-conda install -c conda-forge libgdal-jp2openjpeg
 ```
 
 ## Practical Use Order
