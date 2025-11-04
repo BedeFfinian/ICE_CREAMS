@@ -16,8 +16,8 @@ project](https://bicome.info).
 
 The ICE CREAMS model has been used to create **An Initial Map of
 European Intertidal Seagrass** in [Davies *et al.,*
-2025](https://www.nature.com/articles/s43247-024-01543-z.pdf), with the
-Open Access app found
+2026](https://www.nature.com/articles/s43247-024-01543-z.pdf), with the
+Open Access Application found
 [here](https://s2maxextenticecreams.projects.earthengine.app/view/europeanintertidalseagrass).
 The ICE CREAMS model has also been published in relation to Seagrass
 Phenology assessments and Seagrass Temporal Patterns in: [Davies *et

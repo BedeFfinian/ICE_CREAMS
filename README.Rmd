@@ -10,7 +10,7 @@ Here we present the Neural Network Model produced during the BiCOME project to i
 
 ## Published Uses of ICE CREAMS
 
-The ICE CREAMS model has been used to create **An Initial Map of European Intertidal Seagrass** in [Davies *et al.,* 2025](https://www.nature.com/articles/s43247-024-01543-z.pdf), with the Open Access Application found [here](https://s2maxextenticecreams.projects.earthengine.app/view/europeanintertidalseagrass). The ICE CREAMS model has also been published in relation to Seagrass Phenology assessments and Seagrass Temporal Patterns in: [Davies *et al.,* 2024a](https://www.nature.com/articles/s43247-024-01543-z.pdf) and [Davies *et al.,* 2024b](https://www.sciencedirect.com/science/article/pii/S0034425724003584?via%3Dihub).
+The ICE CREAMS model has been used to create **An Initial Map of European Intertidal Seagrass** in [Davies *et al.,* 2026](https://www.nature.com/articles/s43247-024-01543-z.pdf), with the Open Access Application found [here](https://s2maxextenticecreams.projects.earthengine.app/view/europeanintertidalseagrass). The ICE CREAMS model has also been published in relation to Seagrass Phenology assessments and Seagrass Temporal Patterns in: [Davies *et al.,* 2024a](https://www.nature.com/articles/s43247-024-01543-z.pdf) and [Davies *et al.,* 2024b](https://www.sciencedirect.com/science/article/pii/S0034425724003584?via%3Dihub).
 
 ## Environment Set Up (Current as of: `r Sys.Date()`) 
 
