@@ -12,7 +12,20 @@ Precursors’ with [Terrestrial
 (BIOMONDO)](https://www.biomondo.info/) and Coastal ecosystems [BiCOME
 project](https://bicome.info).
 
-## Environment Set Up (Current as of: 2025-09-08)
+## Published Uses of ICE CREAMS
+
+The ICE CREAMS model has been used to create **An Initial Map of
+European Intertidal Seagrass** in [Davies *et al.,*
+2025](https://www.nature.com/articles/s43247-024-01543-z.pdf), with the
+Open Access app found
+[here](https://s2maxextenticecreams.projects.earthengine.app/view/europeanintertidalseagrass).
+The ICE CREAMS model has also been published in relation to Seagrass
+Phenology assessments and Seagrass Temporal Patterns in: [Davies *et
+al.,* 2024a](https://www.nature.com/articles/s43247-024-01543-z.pdf) and
+[Davies *et al.,*
+2024b](https://www.sciencedirect.com/science/article/pii/S0034425724003584?via%3Dihub).
+
+## Environment Set Up (Current as of: 2025-11-04)
 
 create a conda environment, activate it and install jupyter lab to view
 the notebooks with the following code:
@@ -69,14 +82,6 @@ This repository contains the scripts to train and apply the ICE CREAMS
 model to Sentinel-2 imagery. Sentinel-2 imagery should be downloaded
 from any source in the .SAFE format. This model assumes cloud free, low
 tide (totally emerged) intertidal areas (currently validated in Europe).
-
-## Published Uses of ICE CREAMS
-
-The ICE CREAMS model has so far been published in relation to Seagrass
-Phenology assessments and Seagrass Temporal Patterns in: [Davies *et
-al.,* 2024a](https://www.nature.com/articles/s43247-024-01543-z.pdf) and
-[Davies *et al.,*
-2024b](https://www.sciencedirect.com/science/article/pii/S0034425724003584?via%3Dihub).
 
 ## Methods
 
